@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2BABF221524C5B00335200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BABF121524C5B00335200 /* Assets.xcassets */; };
 		8F9C54ED2147B6FD00651F81 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C54DD2147B6FC00651F81 /* 6.json */; };
 		8F9C54EE2147B6FD00651F81 /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C54DE2147B6FC00651F81 /* 7.json */; };
 		8F9C54EF2147B6FD00651F81 /* event_details_session.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C54DF2147B6FC00651F81 /* event_details_session.json */; };
@@ -27,7 +28,6 @@
 		8FDC894621475DEB00DA904A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC894521475DEB00DA904A /* AppDelegate.m */; };
 		8FDC894921475DEB00DA904A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC894821475DEB00DA904A /* ViewController.m */; };
 		8FDC894C21475DEB00DA904A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC894A21475DEB00DA904A /* Main.storyboard */; };
-		8FDC894E21475DED00DA904A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC894D21475DED00DA904A /* Assets.xcassets */; };
 		8FDC895121475DED00DA904A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC894F21475DED00DA904A /* LaunchScreen.storyboard */; };
 		8FDC895421475DED00DA904A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC895321475DED00DA904A /* main.m */; };
 		C0064601E24B451F5A0B0C5C /* libPods-Lottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F49E84EA5CEE2D1DDF593F8A /* libPods-Lottie.a */; };
@@ -36,6 +36,7 @@
 /* Begin PBXFileReference section */
 		26D475C55CE10803A67C334F /* Pods-Lottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie/Pods-Lottie.debug.xcconfig"; sourceTree = "<group>"; };
 		4C966211FC24ADFA665AB058 /* Pods-Lottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie/Pods-Lottie.release.xcconfig"; sourceTree = "<group>"; };
+		8F2BABF121524C5B00335200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9C54DD2147B6FC00651F81 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
 		8F9C54DE2147B6FC00651F81 /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7.json; sourceTree = "<group>"; };
 		8F9C54DF2147B6FC00651F81 /* event_details_session.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = event_details_session.json; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		8FDC894721475DEB00DA904A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8FDC894821475DEB00DA904A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8FDC894B21475DEB00DA904A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FDC894D21475DED00DA904A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FDC895021475DED00DA904A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FDC895221475DED00DA904A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FDC895321475DED00DA904A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -137,10 +137,10 @@
 				8FDC894721475DEB00DA904A /* ViewController.h */,
 				8FDC894821475DEB00DA904A /* ViewController.m */,
 				8FDC894A21475DEB00DA904A /* Main.storyboard */,
-				8FDC894D21475DED00DA904A /* Assets.xcassets */,
 				8FDC894F21475DED00DA904A /* LaunchScreen.storyboard */,
 				8FDC895221475DED00DA904A /* Info.plist */,
 				8FDC895321475DED00DA904A /* main.m */,
+				8F2BABF121524C5B00335200 /* Assets.xcassets */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -226,9 +226,9 @@
 				8F9C54ED2147B6FD00651F81 /* 6.json in Resources */,
 				8F9C54FC2147B6FD00651F81 /* 9.json in Resources */,
 				8F9C54F52147B6FD00651F81 /* 2.json in Resources */,
+				8F2BABF221524C5B00335200 /* Assets.xcassets in Resources */,
 				8F9C54F82147B6FD00651F81 /* 4.json in Resources */,
 				8FDC895121475DED00DA904A /* LaunchScreen.storyboard in Resources */,
-				8FDC894E21475DED00DA904A /* Assets.xcassets in Resources */,
 				8F9C54F72147B6FD00651F81 /* 8.json in Resources */,
 				8F9C54FA2147B6FD00651F81 /* 5.json in Resources */,
 				8FDC894C21475DEB00DA904A /* Main.storyboard in Resources */,
